@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "c6905e3b-724a-4b88-8f11-1b2bc76379a8")
 	(paper "A4")
+	(title_block
+		(title "Mercury_PCB_NPNOUT_x8")
+		(date "2025-10-08")
+		(rev "V101")
+		(company "KrzychoPCB")
+	)
 	(lib_symbols
 		(symbol "Connector:TestPoint_Probe"
 			(pin_numbers hide)
@@ -2274,6 +2280,128 @@
 				)
 			)
 		)
+		(symbol "Device:R_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Interface_Expansion:TCA9554PW"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4314,6 +4442,12 @@
 		)
 	)
 	(junction
+		(at 91.44 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0167e442-3a91-4a2a-9cbb-01a00c422734")
+	)
+	(junction
 		(at 85.09 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4416,6 +4550,12 @@
 		(uuid "42eaed53-9e90-47e9-9421-13445b30644e")
 	)
 	(junction
+		(at 86.36 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "49d9ce6f-c249-40f1-a1da-9aeba6dbe9b2")
+	)
+	(junction
 		(at 227.33 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4468,6 +4608,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "71a7702c-f862-4e98-bb6f-012336d5f514")
+	)
+	(junction
+		(at 91.44 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "73d29246-c61f-458f-bf27-f4e9b9422b1d")
 	)
 	(junction
 		(at 199.39 115.57)
@@ -4859,6 +5005,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 110.49) (xy 96.52 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e932d82-44b1-4751-80d7-e6c555c6240f")
+	)
+	(wire
+		(pts
 			(xy 87.63 82.55) (xy 100.33 82.55)
 		)
 		(stroke
@@ -4906,6 +5062,16 @@
 			(type default)
 		)
 		(uuid "2477baa0-a04c-4740-85aa-fb56ce119071")
+	)
+	(wire
+		(pts
+			(xy 91.44 113.03) (xy 96.52 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "259b3e2b-419d-4740-8f6b-f65d2b944e21")
 	)
 	(wire
 		(pts
@@ -5059,6 +5225,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 91.44) (xy 91.44 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36e0de82-6496-4f45-b5f4-747ca20976ac")
+	)
+	(wire
+		(pts
 			(xy 102.87 151.13) (xy 88.9 151.13)
 		)
 		(stroke
@@ -5086,6 +5262,16 @@
 			(type default)
 		)
 		(uuid "3a81cee1-0d85-412f-a5b4-38a40d400744")
+	)
+	(wire
+		(pts
+			(xy 86.36 102.87) (xy 86.36 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bccd631-58dd-4ce0-90ef-0ec9af4e4ec7")
 	)
 	(wire
 		(pts
@@ -5186,6 +5372,16 @@
 			(type default)
 		)
 		(uuid "4813b903-a118-483d-9b70-71d02b777e1d")
+	)
+	(wire
+		(pts
+			(xy 86.36 107.95) (xy 86.36 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48467849-6150-4b21-ab85-b7f373824574")
 	)
 	(wire
 		(pts
@@ -5849,7 +6045,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 113.03) (xy 96.52 113.03)
+			(xy 82.55 113.03) (xy 91.44 113.03)
 		)
 		(stroke
 			(width 0)
@@ -6109,7 +6305,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 110.49) (xy 96.52 110.49)
+			(xy 76.2 110.49) (xy 86.36 110.49)
 		)
 		(stroke
 			(width 0)
@@ -6236,6 +6432,16 @@
 			(type default)
 		)
 		(uuid "c32c8cc9-fdf6-4dc5-b851-5a82560da6a1")
+	)
+	(wire
+		(pts
+			(xy 91.44 107.95) (xy 91.44 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c63ba3b8-fe69-4a2b-a2ff-757cc100d3f1")
 	)
 	(wire
 		(pts
@@ -6489,6 +6695,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 91.44) (xy 100.33 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd99a3b9-f00d-4285-ac92-4df03a6c83ad")
+	)
+	(wire
+		(pts
 			(xy 260.35 63.5) (xy 260.35 60.96)
 		)
 		(stroke
@@ -6566,6 +6782,16 @@
 			(type default)
 		)
 		(uuid "ea6eea2d-2297-43a3-91c7-de2c65f1ce46")
+	)
+	(wire
+		(pts
+			(xy 91.44 102.87) (xy 91.44 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec2d9a33-9cfd-4c3a-8cf5-a14ef3449617")
 	)
 	(wire
 		(pts
@@ -8969,7 +9195,7 @@
 			)
 		)
 		(property "Value" "100nF/50V"
-			(at 87.63 96.52 0)
+			(at 104.14 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9225,6 +9451,102 @@
 			(project "TransistorOut"
 				(path "/c6905e3b-724a-4b88-8f11-1b2bc76379a8"
 					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 86.36 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6b0bf602-6382-474e-b4dc-54c1a06e0fcf")
+		(property "Reference" "R4"
+			(at 86.868 102.616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1K"
+			(at 86.36 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 86.36 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 86.36 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" "SMD0603-1K-1%"
+			(at 86.36 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MARITEX" ""
+			(at 86.36 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cena" ""
+			(at 86.36 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5926f1da-ab70-4ea5-bb4e-0dd859e033c0")
+		)
+		(pin "2"
+			(uuid "ae7939ea-7a6f-4383-aa24-bb7430f8c04c")
+		)
+		(instances
+			(project "TransistorOut"
+				(path "/c6905e3b-724a-4b88-8f11-1b2bc76379a8"
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -10474,6 +10796,102 @@
 			(project "TransistorOut"
 				(path "/c6905e3b-724a-4b88-8f11-1b2bc76379a8"
 					(reference "FID3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 91.44 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "87d9539f-3056-4b29-9cea-931904899337")
+		(property "Reference" "R3"
+			(at 91.948 102.616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1K"
+			(at 91.44 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 91.44 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 91.44 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" "SMD0603-1K-1%"
+			(at 91.44 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MARITEX" ""
+			(at 91.44 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cena" ""
+			(at 91.44 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fef71f46-a09d-4aa5-8414-57b0981becc8")
+		)
+		(pin "2"
+			(uuid "f065a8d9-7b2a-4f8b-a26d-94e88f38f9a2")
+		)
+		(instances
+			(project ""
+				(path "/c6905e3b-724a-4b88-8f11-1b2bc76379a8"
+					(reference "R3")
 					(unit 1)
 				)
 			)
